@@ -25,5 +25,22 @@ public class Main {
             cont++;
 
         }while(cont <= 10);
+
+        // Aula introdutória de Orientação a objeto
+
+        // Declaração de Objeto
+        Pessoa adao;
+
+        // Instanciação do objeto
+        adao = new Pessoa();
+
+        // Ao mesmo tempo
+        Pessoa qualquer = new Pessoa();
+
+        // Definir formato do objeto
+        qualquer.nome = "Rita";
+        qualquer.sobrenome = "Lee";
+        qualquer.falar();
+        System.out.println(qualquer.falar("Oi"));
     }
 }
