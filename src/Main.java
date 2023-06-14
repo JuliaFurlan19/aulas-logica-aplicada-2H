@@ -59,5 +59,6 @@ public class Main {
 
         // Definir comportamento
         rainha.falar();
+        rainha.comer();
     }
 }
