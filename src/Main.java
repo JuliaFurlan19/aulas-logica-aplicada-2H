@@ -60,5 +60,14 @@ public class Main {
         // Definir comportamento
         rainha.falar();
         rainha.comer();
+
+        // Criar produtos
+
+        Produto p1 = new Produto(1300.0);
+        Produto p2 = new Produto();
+        p2.setPreco(233.0);
+        Produto p3;
+        p3 = new Produto("Placa de vídeo", 1300.0);
+        p3 = new Produto("Placa mãe", 2500.0);
     }
 }
